@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>bizzcode_contact</title>
+	<link rel="stylesheet" href="contactstyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+	<div class="wholediv">
+	
+		<div class="header">
+			<img src="onlinelogomaker-040917-1619-8413.png">
+				<div class="nav">
+					<ul>
+						<li><a href="home.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+				</div>
+		</div>
+		
+		<div class="slider">
+			<figure>
+				<img src="img1.png">
+				<img src="img2.png">
+				<img src="img3.png">
+				<img src="img4.png">
+				<img src="img5.png">
+			</figure>
+	    </div>
+		
+		
+		<!--<script src="js/jquery-3.2.0.min.js"></script>
+        <script src="js/custom.js"></script>-->
+		<div id="gmap">
+			<h1>A Map Of Our Location</h1><hr class="line">
+		</div>
+		 <div class="googleMap" style="padding-top:20px;padding-bottom:20px;">
+ 			<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+				<div style='overflow:hidden;width:850px;background:black;margin:auto;'>
+					<div id='gmap_canvas' style='height:316px;width:850px;'></div>
+						<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+				</div>
+			<script type='text/javascript'>
+            function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(37.3860517,-122.0838511),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(37.3860517,-122.0838511)});infowindow = new google.maps.InfoWindow({content:'<strong>BizzCode Office</strong><br>Mountain View<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+ 		</div>
+		
+		<div id="msgheader">
+				<h1>Where you can find us?</h1>
+				<hr class="line">
+			</div>
+		
+		
+		<div id="link">
+			<form>
+				<fieldset>
+					<h3>Contact Us:</h3>
+					<label for="name"><strong>Name: </strong></label>
+					<input name="name"/>
+				
+					<label for="email"><strong>Email: </strong></label>
+					<input name="email"/>
+				
+					<label for="comments"><strong>Message: </strong></label>
+					<textarea name="comments"></textarea>
+				</fieldset>
+			
+			<fieldset>
+				<input  type="submit" value="Send Message"/>
+				<input  type="reset" value="Reset Form"/>
+			</fieldset>	
+			</form>	
+		</div>
+		
+		
+		<div class="footer">
+			<a href="https://www.facebook.com/bizcodepl/" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/bizcode_PL" class="fa fa-twitter"></a>
+			<a href="https://www.linkedin.com/company/bizcode" class="fa fa-linkedin"></a>
+			<p>Copyright©bizzcode.com | All right reserved | Site by All</p>
+		</div>
+	</div>
+</body>
+</html>

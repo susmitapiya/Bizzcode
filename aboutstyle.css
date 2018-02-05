@@ -1,0 +1,239 @@
+.wholediv{
+	
+	width:1325px;
+	margin:auto;
+}
+
+.header{height:104px;background-color:white;top:0px;position:fixed;z-index:1;width:1325px;}
+.header img{padding-left:20px;padding-top:15px;}
+
+.nav{
+	float:right;
+	padding-top:30px;
+	padding-right:20px;
+    }
+.nav ul
+	{
+		
+		margin: auto;
+		display:table;
+	}
+.nav ul li
+	{
+	display:inline;
+	
+	}
+.nav ul li a	
+	{
+	text-decoration:none;
+	color:#95a5a6;
+	background-color:white;
+	padding:10px 20px;
+	display:inline-block;	
+	}	
+.nav ul li a:hover,
+.nav ul li a:focus{
+    background: #f39c12;
+    color: #34495e;
+	border-radius:5px;
+	
+}
+.slider
+	{
+	overflow:hidden;
+	width:850px;
+	margin:auto;
+	padding-top:150px;
+	}
+.slider figure img
+	{
+		float:left;
+	}	
+.slider figure
+	{
+		position:relative;
+		margin:0px;
+		left:0px;
+		_text-align:left;
+		width:500%;
+		animation:20s slidy infinite;
+	}
+@keyframes slidy
+{
+	0%
+	{left:0;}
+	10%
+	{left:0;}
+	12%
+	{left:-100%;}
+	22%
+	{left:-100%;}
+	24%
+	{left:-200%;}
+	34%
+	{left:-200%;}
+	36%
+	{left:-300%;}
+	46%
+	{left:-300%;}
+	48%
+	{left:-400%;}
+	46%
+	{left:-300%;}
+	48%
+	{left:-400%;}
+	58%
+	{left:-400%;}
+	60%
+	{left:-300%;}
+	70%
+	{left:-300%;}
+	72%
+	{left:-200%;}
+	82%
+	{left:-200%;}
+	84%
+	{left:-100%;}
+	94%
+	{left:-100%;}
+	96%
+	{left:-100%;}
+}
+
+.briefdescription
+	{
+	padding-top:20px;	
+	width:850px;
+	margin:auto;
+	}
+.briefdescription h1
+	{
+	text-align:center;
+	color:#e67e22;		
+	}
+.line{border-color:#e67e22;}
+hr
+	{
+	border-width: 1px;
+    max-width: 100px;
+	
+	}	
+.briefdescription p	
+	{
+	text-align:justify;
+	color:#7f8c8d;
+	padding-top:20px;
+	font-family: "Times New Roman";
+	font-size:20px;	
+	}
+.briefdescription h3
+	{
+	_text-align:center;
+	color:#2c3e50;
+	opacity:.8;
+	margin-bottom:0px;
+	}
+.team
+	{
+	padding-top:50px;
+	width:852px;
+	margin:auto;
+	padding-bottom:50px;
+	}
+#teamheader
+	{
+	text-align:center;
+	color:#e67e22;	
+	}
+.team h3
+	{
+	color:#2c3e50;
+	opacity:.8;
+	text-align:center;
+	}
+.team p
+	{	
+	color:#7f8c8d;
+	font-family: "Times New Roman";
+	font-size:20px;
+	}	
+#akil
+	{
+	width:284px;
+	float:left;
+	}
+#akil img
+	{
+	width:270px;	
+	height:180px;
+	margin:auto;
+	box-shadow: 5px 5px 5px #888888;
+	}	
+#piya
+	{
+	width:284px;
+	display:inline-block;
+	}
+#piya img
+	{
+	width:270px;	
+	height:180px;
+	margin:auto;
+	box-shadow: 5px 5px 5px #888888;
+	}	
+#munni
+	{
+	width:284px;
+	float:right;
+	
+	}
+#munni img
+	{
+	width:270px;	
+	height:180px;
+	margin:auto;
+	box-shadow: 5px 5px 5px #888888;
+	}
+	
+	
+	
+.footer
+	{
+		
+	
+	background-color:#e67e22;
+	
+	text-align:center;
+	padding-bottom:20px;
+	padding-top:20px;
+	color:white;
+	}
+
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: white;
+  color:#34495e;
+}
+
+.fa-twitter {
+  background: white;
+  color: #34495e;  
+}	
+.fa-linkedin {
+  background: white;
+  color: #34495e;
+}	
+		
